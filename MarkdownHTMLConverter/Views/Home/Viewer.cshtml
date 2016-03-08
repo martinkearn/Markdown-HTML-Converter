@@ -1,0 +1,24 @@
+﻿@model MarkdownHTMLConverter.ViewModels.ViewerViewModel
+<div>
+
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active"><a href="#code" aria-controls="code" role="tab" data-toggle="tab">Code View</a></li>
+        <li role="presentation"><a href="#render" aria-controls="render" role="tab" data-toggle="tab">Rendered View</a></li>
+    </ul>
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="code">
+            <pre>
+            <code>
+                @Model.Html
+            </code>
+            </pre>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="render">
+            @{Output.Write(Model.Html);}
+        </div>
+    </div>
+
+</div>
