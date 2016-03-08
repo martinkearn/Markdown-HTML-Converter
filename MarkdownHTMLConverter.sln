@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MarkdownHTMLConverter", "MarkdownHTMLConverter\MarkdownHTMLConverter.xproj", "{81575BA6-6708-49E2-8AD9-E476704FD093}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81575BA6-6708-49E2-8AD9-E476704FD093}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81575BA6-6708-49E2-8AD9-E476704FD093}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81575BA6-6708-49E2-8AD9-E476704FD093}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81575BA6-6708-49E2-8AD9-E476704FD093}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
